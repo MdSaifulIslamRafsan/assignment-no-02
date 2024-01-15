@@ -115,6 +115,10 @@
   .Newsletter > div{
     width: 100%;
   }
+  /* footer area styles */
+  .footer-icon .footer-title {
+    font-size: 1.5rem;
+  }
 }
 
 
