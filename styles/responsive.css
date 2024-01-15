@@ -1,0 +1,39 @@
+/* mobile devices responsive */
+@media screen and (max-width:600px) {
+  /* banner area responsive */
+  .banner{
+    height: auto;
+    padding: 50px 0;
+  }
+  .banner .banner-title{
+    font-size: 1.75rem;
+  }
+  .header-area-input ,  .Our-Popular-Tours{
+    flex-direction: column;
+  }
+  .header-area-input input , select , .Search{
+    display: block;
+  }
+
+  .Our-Popular-Tours > div{
+    width: 100%;
+  }
+
+}
+/* tablet devices responsive */
+@media screen and (min-width:600px) and (max-width:992px){
+   /* banner area responsive */
+   .banner{
+    height: auto;
+    padding: 50px 0;
+  }
+  .header-area-input ,  .Our-Popular-Tours{
+    flex-direction: column;
+  }
+  .header-area-input input , select , button{
+    display: block;
+  }
+  .Our-Popular-Tours > div{
+    width: 100%;
+  }
+}
