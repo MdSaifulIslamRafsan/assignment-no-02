@@ -186,7 +186,7 @@ nav{
   left: 50%;
   transform: translate(-50% , -50%);
 }
-/* Why Choose Us area style */
+/* Why Choose Us area styles */
 .Why-Choose-Us{
   margin-top: 80px;
 }
@@ -217,4 +217,57 @@ nav{
 .card-title{
   color: var(--primary-color);
   font-size: 1.5rem;
+}
+/* Deals & Discounts area styles */
+.Deals{
+  margin-top: 100px;
+}
+.deals-img{
+  height: 400px;
+  border-radius: 10px;
+}
+.deals-img1 , .deals-img3{
+  background: url('../Images/Group39.png');
+  background-repeat: no-repeat;
+  margin: 20px 0px;
+  position: relative;
+  background-size: cover;
+}
+.deals-img2{
+  background: url('../Images/Group40.png');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box{
+  border-radius: 15px;
+  border: 2px solid var(--white-color);
+  max-width: 480px;
+  background-color: rgba(255 , 255 , 255 , 0.80);
+  padding: 20px;
+}
+.box .price{
+  color: var(--tomato-color);
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.box1 , .box3{
+  position: absolute;
+  right: 3%;
+  top: 10%;
+}
+.box2{
+  position: absolute;
+  top: 10%;
+  left: 3%;
+}
+.box-icon-and-text i{
+  color: var(--tomato-color);
+  margin-right: 5px ;
+  margin-bottom: 20px;
+}
+.box-icon-and-text span{
+  margin-right: 20px;
 }

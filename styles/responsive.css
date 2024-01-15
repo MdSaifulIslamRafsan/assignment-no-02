@@ -1,6 +1,9 @@
 /* mobile devices responsive */
 @media screen and (max-width:600px) {
   /* nav */
+  .nav-icon .nav-title{
+    font-size: 1.5rem;
+  }
   .nav-item ul{
     display: none;
   }
@@ -17,6 +20,9 @@
   }
   .header-area-input ,  .Our-Popular-Tours{
     flex-direction: column;
+  }
+  .header-area-input{
+    width: 90%;
   }
   .header-area-input input , select , .Search{
     display: block;
@@ -56,8 +62,32 @@
    .card-item{
     flex-basis: 100%;
   }
+  /* Deals & Discounts area styles */
+  .deals-img{
+    height: 520px;
+  }
+  .box1 , .box3{
+    top: 5%;
+    right: 0%;
+    margin: 10px;
+  }
+  .box2{
+    left: 0%;
+    top: 5%;
+    margin: 10px;
+  }
+
+  .box-icon-and-text span{
+    margin-right: 10px;
+  }
 }
+
+
+
+
 /* tablet devices responsive */
+
+
 @media screen and (min-width:600px) and (max-width:992px){
    /* banner area responsive */
    .banner{
@@ -73,7 +103,9 @@
   .Our-Popular-Tours > div{
     width: 100%;
   }
-
+  .header-area-input{
+    width: 90%;
+  }
    /* Choose Your Destination area styles */
   .img-item1{
     grid-column: 1/7;
@@ -105,5 +137,14 @@
   }
   .nav-item i{
     display: block;
+  }
+   /* Deals & Discounts area styles */
+   .box1 , .box3{
+    left: 0;
+    margin: 20px;
+  }
+  .box2{
+    left: 0%;
+    margin: 20px;
   }
 }
