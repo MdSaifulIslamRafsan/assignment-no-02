@@ -1,84 +1,119 @@
 /* mobile devices responsive */
 @media screen and (max-width:600px) {
+
   /* nav */
-  .nav-icon .nav-title{
+  .nav-icon .nav-title {
     font-size: 1.5rem;
   }
-  .nav-item ul{
+
+  .nav-item ul {
     display: none;
   }
-  .nav-item i{
+
+  .nav-item i {
     display: block;
   }
+
   /* banner area responsive */
-  .banner{
+  .banner {
     height: auto;
     padding: 50px 0;
   }
-  .banner .banner-title{
+
+  .banner .banner-title {
     font-size: 1.75rem;
   }
-  .header-area-input ,  .Our-Popular-Tours{
+
+  .header-area-input,
+  .Our-Popular-Tours,
+  .place-details,
+  .Newsletter {
     flex-direction: column;
   }
-  .header-area-input{
+
+  .header-area-input {
     width: 90%;
   }
-  .header-area-input input , select , .Search{
+
+  .header-area-input input,
+  select,
+  .Search {
     display: block;
   }
 
-  .Our-Popular-Tours > div{
+  .Our-Popular-Tours>div {
     width: 100%;
   }
-   /* Choose Your Destination area styles */
-   .img-Collage-container{
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(7 , 170px);
-   }
-   .img-item1{
-    grid-column: 1/-1;
-   }
-   .img-item2{
-    grid-column: 1/-1;
-   }
-   .img-item3{
-    grid-column: 1/-1;
-   }
-   .img-item4{
-    grid-column: 1/-1;
-   }
-   .img-item5{
-    grid-column: 1/-1;
-   }
-   .img-item6{
-    grid-column: 1/-1;
-   }
-   .img-item7{
-    grid-column: 1/-1;
-   }
 
- /* Choose Your Destination area styles */
-   .card-item{
+  /* Choose Your Destination area styles */
+  .img-Collage-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 170px);
+  }
+
+  .img-item1 {
+    grid-column: 1/-1;
+  }
+
+  .img-item2 {
+    grid-column: 1/-1;
+  }
+
+  .img-item3 {
+    grid-column: 1/-1;
+  }
+
+  .img-item4 {
+    grid-column: 1/-1;
+  }
+
+  .img-item5 {
+    grid-column: 1/-1;
+  }
+
+  .img-item6 {
+    grid-column: 1/-1;
+  }
+
+  .img-item7 {
+    grid-column: 1/-1;
+  }
+
+  /* Choose Your Destination area styles */
+  .card-item {
     flex-basis: 100%;
   }
+
   /* Deals & Discounts area styles */
-  .deals-img{
+  .deals-img {
     height: 520px;
   }
-  .box1 , .box3{
+
+  .box1,
+  .box3 {
     top: 5%;
     right: 0%;
     margin: 10px;
   }
-  .box2{
+
+  .box2 {
     left: 0%;
     top: 5%;
     margin: 10px;
   }
 
-  .box-icon-and-text span{
+  .box-icon-and-text span {
     margin-right: 10px;
+  }
+
+  /*  A Simple Perfect Place To Get Lost area styles */
+  .place-details>div {
+    width: 100%;
+  }
+
+  /* Newsletter area styles */
+  .Newsletter > div{
+    width: 100%;
   }
 }
 
@@ -88,63 +123,94 @@
 /* tablet devices responsive */
 
 
-@media screen and (min-width:600px) and (max-width:992px){
-   /* banner area responsive */
-   .banner{
+@media screen and (min-width:600px) and (max-width:992px) {
+
+  /* banner area responsive */
+  .banner {
     height: auto;
     padding: 50px 0;
   }
-  .header-area-input ,  .Our-Popular-Tours{
+
+  .header-area-input,
+  .Our-Popular-Tours,
+  .place-details,
+  .Newsletter {
     flex-direction: column;
   }
-  .header-area-input input , select , button{
+
+  .header-area-input input,
+  select,
+  button {
     display: block;
   }
-  .Our-Popular-Tours > div{
+
+  .Our-Popular-Tours>div {
     width: 100%;
   }
-  .header-area-input{
+
+  .header-area-input {
     width: 90%;
   }
-   /* Choose Your Destination area styles */
-  .img-item1{
+
+  /* Choose Your Destination area styles */
+  .img-item1 {
     grid-column: 1/7;
-   }
-   .img-item2{
+  }
+
+  .img-item2 {
     grid-column: 7/13;
-   }
-   .img-item3{
+  }
+
+  .img-item3 {
     grid-column: 1/5;
-   }
-   .img-item4{
+  }
+
+  .img-item4 {
     grid-column: 5/9;
-   }
-   .img-item5{
+  }
+
+  .img-item5 {
     grid-column: 9/13;
-   }
-   .img-item6{
+  }
+
+  .img-item6 {
     grid-column: 1/7;
-   }
-   .img-item7{
+  }
+
+  .img-item7 {
     grid-column: 7/13;
-   }
-  .img-item{
+  }
+
+  .img-item {
     position: relative;
   }
-   /* nav */
-   .nav-item ul{
+
+  /* nav */
+  .nav-item ul {
     display: none;
   }
-  .nav-item i{
+
+  .nav-item i {
     display: block;
   }
-   /* Deals & Discounts area styles */
-   .box1 , .box3{
+
+  /* Deals & Discounts area styles */
+  .box1,
+  .box3 {
     left: 0;
     margin: 20px;
   }
-  .box2{
+
+  .box2 {
     left: 0%;
     margin: 20px;
   }
+
+  .place-details>div {
+    width: 100%;
+  }
+    /* Newsletter area styles */
+    .Newsletter > div{
+      width: 100%;
+    }
 }
