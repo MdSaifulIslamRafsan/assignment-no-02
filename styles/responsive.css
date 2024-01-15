@@ -28,6 +28,7 @@
    /* Choose Your Destination area styles */
    .img-Collage-container{
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(7 , 170px);
    }
    .img-item1{
     grid-column: 1/-1;
@@ -51,6 +52,10 @@
     grid-column: 1/-1;
    }
 
+ /* Choose Your Destination area styles */
+   .card-item{
+    flex-basis: 100%;
+  }
 }
 /* tablet devices responsive */
 @media screen and (min-width:600px) and (max-width:992px){
