@@ -80,6 +80,10 @@ nav {
   color: var(--item-color);
 }
 
+.nav-item ul li .active {
+  color: var(--tomato-color);
+}
+
 .btn-primary {
   background: var(--tomato-color);
   border: none;
@@ -263,6 +267,73 @@ select,
   font-size: 1.5rem;
 }
 
+/* What people say about Us area styles*/
+.testimonials-area {
+  margin: 100px 0px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 90%;
+}
+
+.testimonials>div {
+  width: 55%;
+}
+
+.comment {
+  box-shadow: 4px 5px 10px #333;
+  background: var(--white-color);
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.comment img {
+  position: absolute;
+  left: -10%;
+  top: -20%;
+}
+
+.testimonial-comment {
+  position: relative;
+}
+
+.company {
+  border: 2px solid #aaa5a5;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 30%;
+  left: 8%;
+  z-index: -1;
+  padding: 5px 20px;
+}
+
+.payment-card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  gap: 20px;
+}
+
+.payment-card-item {
+  flex-basis: calc(20% - 20px);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Deals & Discounts area styles */
 .Deals {
   margin-top: 100px;
@@ -324,9 +395,13 @@ select,
   margin-bottom: 20px;
 }
 
-.box-icon-and-text span {
-  margin-right: 20px;
+.box-icon-and-text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  text-align: center;
 }
+
 
 /*  A Simple Perfect Place To Get Lost area styles */
 .place-details {
@@ -379,7 +454,7 @@ select,
   background-size: cover;
   height: 330px;
   background-repeat: no-repeat;
-  position: relative; 
+  position: relative;
   border-radius: 15px;
   display: flex;
   justify-content: right;
@@ -405,7 +480,8 @@ select,
 .input-bg-color {
   background-color: rgba(19, 19, 24, 0.05);
 }
-.discount{
+
+.discount {
   background: var(--tomato-color);
   padding: 10px;
   max-width: 300px;
@@ -417,8 +493,9 @@ select,
   position: relative;
   top: -15%;
 }
+
 /* footer area styles  */
-footer{
+footer {
   margin-top: 50px;
   background-color: rgba(19, 19, 24, 0.05);
   height: 450px;
@@ -427,26 +504,32 @@ footer{
   justify-content: center;
 
 }
-.footer-area{
+
+.footer-area {
   max-width: 850px;
 }
-.footer-icon{
+
+.footer-icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer-icon h1 span{
+.footer-icon h1 span {
   color: var(--tomato-color);
 }
-.social-icon i{
+
+.social-icon i {
   margin: 25px 20px 25px 0px;
   font-size: 25px;
+  color: var(--primary-color);
 }
+
 .footer-area p {
   margin-top: 40px;
 }
-.footer-title{
+
+.footer-title {
   font-size: 2rem;
   font-weight: 800;
   color: var(--primary-color);

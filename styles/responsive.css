@@ -1,9 +1,18 @@
 /* mobile devices responsive */
 @media screen and (max-width:600px) {
 
+  /* common style */
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
   /* nav */
   .nav-icon .nav-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .nav-item ul {
@@ -27,7 +36,8 @@
   .header-area-input,
   .Our-Popular-Tours,
   .place-details,
-  .Newsletter {
+  .Newsletter,
+  .testimonials {
     flex-direction: column;
   }
 
@@ -49,6 +59,10 @@
   .img-Collage-container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 170px);
+  }
+
+  .item-text h1 {
+    font-size: 1.25rem;
   }
 
   .img-item1 {
@@ -79,9 +93,27 @@
     grid-column: 1/-1;
   }
 
-  /* Choose Your Destination area styles */
+  /* Why Choose Us area styles */
   .card-item {
     flex-basis: 100%;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  /* What people say about Us area styles */
+  .testimonials>div {
+    width: 100%;
+  }
+
+  .box-icon-and-text {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+  }
+
+  .box-icon-and-text .span1 {
+    grid-column: 1/-1;
   }
 
   /* Deals & Discounts area styles */
@@ -102,9 +134,9 @@
     margin: 10px;
   }
 
-  .box-icon-and-text span {
-    margin-right: 10px;
-  }
+  /* .box-icon-and-text .span {
+    flex-basis: 130px;
+  } */
 
   /*  A Simple Perfect Place To Get Lost area styles */
   .place-details>div {
@@ -112,13 +144,20 @@
   }
 
   /* Newsletter area styles */
-  .Newsletter > div{
+  .Newsletter>div {
     width: 100%;
   }
+
   /* footer area styles */
-  .footer-icon .footer-title {
-    font-size: 1.5rem;
+  .footer-area {
+    margin: 20px;
   }
+
+  .footer-icon .footer-title {
+    font-size: 1.2rem;
+  }
+
+
 }
 
 
@@ -138,7 +177,8 @@
   .header-area-input,
   .Our-Popular-Tours,
   .place-details,
-  .Newsletter {
+  .Newsletter,
+  .testimonials {
     flex-direction: column;
   }
 
@@ -154,6 +194,11 @@
 
   .header-area-input {
     width: 90%;
+  }
+
+  /* What people say about Us area styles */
+  .testimonials>div {
+    width: 100%;
   }
 
   /* Choose Your Destination area styles */
@@ -213,8 +258,9 @@
   .place-details>div {
     width: 100%;
   }
-    /* Newsletter area styles */
-    .Newsletter > div{
-      width: 100%;
-    }
+
+  /* Newsletter area styles */
+  .Newsletter>div {
+    width: 100%;
+  }
 }
