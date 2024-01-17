@@ -2,12 +2,13 @@
 @media screen and (max-width:600px) {
 
   /* common style */
+ 
   .title {
     font-size: 1.25rem;
   }
 
   .description {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   /* nav */
@@ -24,6 +25,9 @@
   }
 
   /* banner area responsive */
+  .banner-description{
+    font-size: 0.875rem;
+  }
   .banner {
     height: auto;
     padding: 50px 0;
@@ -133,10 +137,6 @@
     top: 5%;
     margin: 10px;
   }
-
-  /* .box-icon-and-text .span {
-    flex-basis: 130px;
-  } */
 
   /*  A Simple Perfect Place To Get Lost area styles */
   .place-details>div {
