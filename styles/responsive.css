@@ -142,9 +142,6 @@
   .place-details>div {
     width: 100%;
   }
-  .place-iframe {
-    height: 180px;
-  }
   .place-iframe-text{
     font-size: 1rem;
   }
